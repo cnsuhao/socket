@@ -1,4 +1,5 @@
 #include "Socket.h"
+#include <string.h>
 
 Socket::Socket() {
     // 设置socket fd

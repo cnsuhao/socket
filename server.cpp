@@ -41,7 +41,10 @@ void processClientWrite(SOCKET clientsock, std::atomic<bool>* _flag) {
 }
 
 /*
- * 
+ * g++ -std=c++11 -pthread   -c -g -MMD -MP -MF "build/Debug/GNU-Linux-x86/Socket.o.d" -o build/Debug/GNU-Linux-x86/Socket.o Socket.cpp
+ * g++ -std=c++11 -pthread   -c -g -MMD -MP -MF "build/Debug/GNU-Linux-x86/SocketAPI.o.d" -o build/Debug/GNU-Linux-x86/SocketAPI.o SocketAPI.cpp
+ * g++ -std=c++11 -pthread   -c -g -MMD -MP -MF "build/Debug/GNU-Linux-x86/server.o.d" -o build/Debug/GNU-Linux-x86/server.o server.cpp
+ * g++ -std=c++11 -pthread    -o dist/Debug/GNU-Linux-x86/socket build/Debug/GNU-Linux-x86/Socket.o build/Debug/GNU-Linux-x86/SocketAPI.o build/Debug/GNU-Linux-x86/server.o 
  */
 int main(void) {
 

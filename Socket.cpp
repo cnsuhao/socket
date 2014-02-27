@@ -47,6 +47,12 @@ bool Socket::connect() {
     return SocketAPI::connect_ex(m_SocketID, (const struct sockaddr *) &m_SockAddr, sizeof (m_SockAddr));
 }
 
+bool Socket::connect(const char* host, unsigned int port) {
+    strncpy(m_Host, host, IP_SIZE - 1);
+    m_Port = port;
+    return connect();
+}
+
 bool Socket::reconnect(const char* host, unsigned int port) {
     // delete old socket impl object
     close();

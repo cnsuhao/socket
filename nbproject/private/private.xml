@@ -7,8 +7,9 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group name="C++标准程序库">
-            <file>file:/F:/workspace/cpp/socket/SocketAPI.cpp</file>
-            <file>file:/F:/workspace/cpp/socket/main.cpp</file>
+            <file>file:/F:/workspace/cpp/socket/SocketInputStream.h</file>
+            <file>file:/F:/workspace/cpp/socket/Packet.h</file>
+            <file>file:/F:/workspace/cpp/socket/SocketInputStream.cpp</file>
         </group>
     </open-files>
 </project-private>

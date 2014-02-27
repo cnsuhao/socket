@@ -39,6 +39,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/Socket.o \
 	${OBJECTDIR}/SocketAPI.o \
 	${OBJECTDIR}/SocketInputStream.o \
+	${OBJECTDIR}/SocketOutputStream.o \
 	${OBJECTDIR}/main3.o
 
 
@@ -85,6 +86,11 @@ ${OBJECTDIR}/SocketInputStream.o: SocketInputStream.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/SocketInputStream.o SocketInputStream.cpp
+
+${OBJECTDIR}/SocketOutputStream.o: SocketOutputStream.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/SocketOutputStream.o SocketOutputStream.cpp
 
 ${OBJECTDIR}/main3.o: main3.cpp 
 	${MKDIR} -p ${OBJECTDIR}

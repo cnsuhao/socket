@@ -37,8 +37,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 OBJECTFILES= \
 	${OBJECTDIR}/ServerSocket.o \
 	${OBJECTDIR}/Socket.o \
-	${OBJECTDIR}/SocketAPI.o \
-	${OBJECTDIR}/client2.o
+	${OBJECTDIR}/SocketAPI.o
 
 
 # C Compiler Flags
@@ -79,11 +78,6 @@ ${OBJECTDIR}/SocketAPI.o: SocketAPI.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/SocketAPI.o SocketAPI.cpp
-
-${OBJECTDIR}/client2.o: client2.cpp 
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} "$@.d"
-	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/client2.o client2.cpp
 
 # Subprojects
 .build-subprojects:

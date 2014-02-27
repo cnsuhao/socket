@@ -35,6 +35,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
+	${OBJECTDIR}/Packet.o \
 	${OBJECTDIR}/ServerSocket.o \
 	${OBJECTDIR}/Socket.o \
 	${OBJECTDIR}/SocketAPI.o \
@@ -66,6 +67,11 @@ LDLIBSOPTIONS=
 ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/socket: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/socket ${OBJECTFILES} ${LDLIBSOPTIONS}
+
+${OBJECTDIR}/Packet.o: Packet.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Packet.o Packet.cpp
 
 ${OBJECTDIR}/ServerSocket.o: ServerSocket.cpp 
 	${MKDIR} -p ${OBJECTDIR}

@@ -10,6 +10,7 @@
       <itemPath>SocketOutputStream.h</itemPath>
     </logicalFolder>
     <logicalFolder name="SourceFiles" displayName="源文件" projectFiles="true">
+      <itemPath>Packet.cpp</itemPath>
       <itemPath>ServerSocket.cpp</itemPath>
       <itemPath>Socket.cpp</itemPath>
       <itemPath>SocketAPI.cpp</itemPath>
@@ -55,6 +56,8 @@
           <commandLine>-std=c++11 -pthread</commandLine>
         </ccTool>
       </compileType>
+      <item path="Packet.cpp" ex="false" tool="1" flavor2="0">
+      </item>
       <item path="Packet.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="ServerSocket.cpp" ex="false" tool="1" flavor2="0">
@@ -100,6 +103,8 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="Packet.cpp" ex="false" tool="1" flavor2="0">
+      </item>
       <item path="Packet.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="ServerSocket.cpp" ex="false" tool="1" flavor2="0">

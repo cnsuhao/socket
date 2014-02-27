@@ -38,7 +38,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/ServerSocket.o \
 	${OBJECTDIR}/Socket.o \
 	${OBJECTDIR}/SocketAPI.o \
-	${OBJECTDIR}/client.o
+	${OBJECTDIR}/server2.o
 
 
 # C Compiler Flags
@@ -80,10 +80,10 @@ ${OBJECTDIR}/SocketAPI.o: SocketAPI.cpp
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/SocketAPI.o SocketAPI.cpp
 
-${OBJECTDIR}/client.o: client.cpp 
+${OBJECTDIR}/server2.o: server2.cpp 
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/client.o client.cpp
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/server2.o server2.cpp
 
 # Subprojects
 .build-subprojects:

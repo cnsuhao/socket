@@ -47,6 +47,7 @@
                    kind="IMPORTANT_FILES_FOLDER">
       <itemPath>Makefile</itemPath>
     </logicalFolder>
+    <itemPath>PacketFactory.h</itemPath>
   </logicalFolder>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
@@ -66,6 +67,8 @@
       <item path="Packet.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="PacketDefine.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="PacketFactory.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="ServerSocket.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -115,6 +118,8 @@
       <item path="Packet.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="PacketDefine.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="PacketFactory.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="ServerSocket.cpp" ex="false" tool="1" flavor2="0">
       </item>

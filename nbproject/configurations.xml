@@ -4,8 +4,11 @@
     <logicalFolder name="HeaderFiles" displayName="头文件" projectFiles="true">
       <logicalFolder name="f1" displayName="Packets" projectFiles="true">
       </logicalFolder>
+      <itemPath>GameUtils.h</itemPath>
       <itemPath>Packet.h</itemPath>
       <itemPath>PacketDefine.h</itemPath>
+      <itemPath>PacketFactory.h</itemPath>
+      <itemPath>PacketFactoryManager.h</itemPath>
       <itemPath>ServerSocket.h</itemPath>
       <itemPath>Socket.h</itemPath>
       <itemPath>SocketAPI.h</itemPath>
@@ -47,7 +50,6 @@
                    kind="IMPORTANT_FILES_FOLDER">
       <itemPath>Makefile</itemPath>
     </logicalFolder>
-    <itemPath>PacketFactory.h</itemPath>
   </logicalFolder>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
@@ -62,6 +64,8 @@
           <commandLine>-std=c++11 -pthread</commandLine>
         </ccTool>
       </compileType>
+      <item path="GameUtils.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="Packet.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Packet.h" ex="false" tool="3" flavor2="0">
@@ -69,6 +73,8 @@
       <item path="PacketDefine.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="PacketFactory.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="PacketFactoryManager.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="ServerSocket.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -113,6 +119,8 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="GameUtils.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="Packet.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Packet.h" ex="false" tool="3" flavor2="0">
@@ -120,6 +128,8 @@
       <item path="PacketDefine.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="PacketFactory.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="PacketFactoryManager.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="ServerSocket.cpp" ex="false" tool="1" flavor2="0">
       </item>

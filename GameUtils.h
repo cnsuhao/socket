@@ -9,6 +9,7 @@
 #ifndef CN_VICKY__GAMEUTILS_H
 #define	CN_VICKY__GAMEUTILS_H
 #include <cstddef>
+#include <pthread.h>
 
 
 #define __PI			3.1415f

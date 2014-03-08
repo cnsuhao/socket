@@ -10,12 +10,12 @@
 #define	CN_VICKY__PACKETDEFINE_H
 
 
-namespace Packet {
+namespace packet {
 
     enum PACKET_DEF {
         PACKET_NONE = 0,                                                        //0，空
         PACKET_CG_CHAT,                                                         //聊天
-        
+        PACKET_MAX                                                              //消息数量
     };
 }
 

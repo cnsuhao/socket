@@ -19,6 +19,7 @@
       <logicalFolder name="f1" displayName="Packets" projectFiles="true">
       </logicalFolder>
       <itemPath>Packet.cpp</itemPath>
+      <itemPath>PacketFactoryManager.cpp</itemPath>
       <itemPath>ServerSocket.cpp</itemPath>
       <itemPath>Socket.cpp</itemPath>
       <itemPath>SocketAPI.cpp</itemPath>
@@ -74,6 +75,8 @@
       </item>
       <item path="PacketFactory.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="PacketFactoryManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
       <item path="PacketFactoryManager.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="ServerSocket.cpp" ex="false" tool="1" flavor2="0">
@@ -128,6 +131,8 @@
       <item path="PacketDefine.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="PacketFactory.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="PacketFactoryManager.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="PacketFactoryManager.h" ex="false" tool="3" flavor2="0">
       </item>
